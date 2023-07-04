@@ -1,0 +1,13 @@
+req = lo que estas enviando al servidor // request es cuando llega la data
+res = lo que el servidor te manda a ti // response cuando el servidor lanza la data de regreso
+next = para ir al siguiente middleware y si le pongo return antes del next, lo obligo en caso de no funcionar
+
+MVC:
+    Model - Se encarga de los datos y de la logica para mostrarlos
+    View - Se encargar de lo que se ve en pantalla
+    controller - Se encarga de comunicarse con la vista y el modelo para obtener datos y luego mostrarlos
+        Definicion de Mozilla:
+            Modelo: Maneja datos y lógica de negocios.
+            Vista: Se encarga del diseño y presentación.
+            Controlador: Enruta comandos a los modelos y vistas.
+
